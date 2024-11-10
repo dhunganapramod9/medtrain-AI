@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #f8f9ff;
+  --color-text-primary: #1a1f36;
+  --color-text-secondary: #4a5578;
+  --color-accent-purple: #6366f1;
+  --color-accent-blue: #3b82f6;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+.nav-link {
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--color-accent-purple);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-text-primary;
+  }
+  
+  p {
+    @apply text-text-secondary;
+  }
+}

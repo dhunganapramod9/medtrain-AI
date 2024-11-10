@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DashboardStats from '../components/DashboardStats';
+import LearningProgress from '../components/LearningProgress';
+import UpcomingTasks from '../components/UpcomingTasks';
+---
+
+<Layout title="Dashboard - Healthcare Training Platform">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="lg:col-span-2">
+      <h1 class="text-3xl font-bold mb-6">Welcome back, Dr. Smith</h1>
+      <DashboardStats client:load />
+      <div class="mt-8">
+        <LearningProgress client:load />
+      </div>
+    </div>
+    <div>
+      <UpcomingTasks client:load />
+    </div>
+  </div>
+</Layout>

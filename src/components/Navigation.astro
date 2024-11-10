@@ -1,0 +1,48 @@
+---
+import { Image } from 'astro:assets';
+---
+
+<nav class="bg-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex justify-between h-16">
+      <div class="flex">
+        <div class="flex-shrink-0 flex items-center">
+          <a href="/" class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-gradient-to-r from-primary-600 to-blue-600 rounded-lg flex items-center justify-center">
+              <span class="text-white font-bold text-xl">M</span>
+            </div>
+            <span class="text-xl font-bold bg-gradient-to-r from-primary-600 to-blue-600 bg-clip-text text-transparent">
+              MedTrain AI
+            </span>
+          </a>
+        </div>
+        <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <a href="/modules" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-primary-500">
+            Learning Modules
+          </a>
+          <a href="/clinical-skills" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-primary-500">
+            Clinical Skills
+          </a>
+          <a href="/assessment" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-primary-500">
+            Assessment
+          </a>
+          <a href="/resources" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-primary-500">
+            Resources
+          </a>
+          <a href="/community" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-primary-500">
+            Community
+          </a>
+        </div>
+      </div>
+      <div class="flex items-center">
+        <a href="/dashboard" class="text-gray-900">
+          <div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
+            <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
