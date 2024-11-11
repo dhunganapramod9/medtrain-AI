@@ -6,8 +6,7 @@
 1. Clone the project:
 ```bash
 git clone https://github.com/dhunganapramod9/medtrain-AI
-cd [your project name
-]
+cd [your project name]
 ```
 
 2. Install dependencies:
