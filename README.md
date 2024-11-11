@@ -40,5 +40,4 @@ Your site will be running at `http://localhost:4321`
 
 ## Need Help?
 
-- Check the [Astro documentation](https://docs.astro.build)
-- Join the [Astro Discord](https://astro.build/chat)
+
