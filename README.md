@@ -4,7 +4,7 @@
 
 A comprehensive VR medical training platform for Meta Quest 3S featuring GPT-4o integration, Convai voice interactions, and advanced hand tracking for realistic medical simulations.
 
-## 🏆 Project Overview
+## Project Overview
 
 MedTrain AI is an immersive VR medical training application that combines cutting-edge AI with haptic feedback and spatial workflows to create realistic medical learning experiences. The system enables voice-based, LLM-guided medical simulations with adaptive dialogue branching and real-time scenario generation.
 
@@ -18,7 +18,7 @@ MedTrain AI is an immersive VR medical training application that combines cuttin
 - **Real-time Patient Simulation**: Dynamic vital signs and patient responses
 - **Hospital Environment**: Fully immersive medical facility with spatial workflows
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ CONVAI_CHARACTER_ID=your_patient_character_id
    - Configure VRManager prefab
    - Set API keys in inspector or environment variables
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Unity/Scripts/
@@ -94,7 +94,7 @@ Unity/Scripts/
     └── HandGestureRecognizer.cs  # Medical gesture recognition
 ```
 
-## 🔧 Core Components
+## Core Components
 
 ### VRManager
 
@@ -146,7 +146,7 @@ bool isTracked = handTrackingManager.IsHandTracked(HandType.Right);
 MedicalTool tool = handTrackingManager.GetHeldTool(HandType.Left);
 ```
 
-## 🏥 Medical Scenarios
+## Medical Scenarios
 
 ### Creating Scenarios
 
@@ -184,7 +184,7 @@ scenarioManager.AwardPoints("Correct Diagnosis", 25);
 scenarioManager.DeductPoints("Patient Safety", 10);
 ```
 
-## 🛠️ Medical Tools
+## 🛠Medical Tools
 
 ### Supported Instruments
 
@@ -209,7 +209,7 @@ if (tool.GetToolType() == MedicalTool.ToolType.Stethoscope)
 }
 ```
 
-## 🎯 Hand Gesture Recognition
+## Hand Gesture Recognition
 
 ### Medical Gestures
 
@@ -234,7 +234,7 @@ var customGesture = new GesturePattern
 gestureRecognizer.AddCustomGesture(customGesture);
 ```
 
-## 🌐 Environment System
+## Environment System
 
 ### Hospital Rooms
 
@@ -253,7 +253,7 @@ The system uses Quest 3S spatial mapping for:
 - Patient positioning
 - Safety zone establishment
 
-## 🔊 Voice Integration
+## Voice Integration
 
 ### Patient Voices
 
@@ -283,7 +283,7 @@ convaiIntegration.PatientActionTriggered += (action, parameter) => {
 };
 ```
 
-## 📊 Performance Optimization
+## Performance Optimization
 
 ### Quest 3S Specific
 
@@ -299,7 +299,7 @@ convaiIntegration.PatientActionTriggered += (action, parameter) => {
 - Context window management
 - Token usage optimization
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 ### Medical Accuracy
 
@@ -317,7 +317,7 @@ All medical procedures and scenarios are validated by:
 - Comfortable interaction distances
 - Eye strain reduction
 
-## 🔐 Security & Privacy
+## Security & Privacy
 
 ### Data Handling
 
@@ -333,7 +333,7 @@ All medical procedures and scenarios are validated by:
 - Emergency exit procedures
 - Comfort break reminders
 
-## 🚀 Deployment
+## Deployment
 
 ### Build Configuration
 
@@ -352,50 +352,15 @@ Unity Build Settings:
 adb install MedTrainAI.apk
 ```
 
-## 📈 Analytics & Learning
 
-### Performance Metrics
 
-- Scenario completion times
-- Assessment scores
-- Hand tracking accuracy
-- User engagement metrics
-
-### Educational Outcomes
-
-- Skill progression tracking
-- Competency assessment
-- Learning objective achievement
-- Retention analysis
-
-## 🤝 Contributing
-
-We welcome contributions from:
-
-- Medical professionals
-- VR developers
-- AI/ML engineers
-- UX designers
-- Medical educators
-
-### Development Guidelines
-
-1. Follow medical accuracy standards
-2. Maintain VR comfort guidelines
-3. Ensure accessibility compliance
-4. Document all medical procedures
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🏆 Awards & Recognition
+## Awards & Recognition
 
 - **2nd Place - HackPrinceton 2024**
 - Featured medical VR innovation
 - Advanced AI integration award
 
-## 📞 Support
+##  Support
 
 For technical support or medical validation questions:
 
@@ -403,7 +368,7 @@ For technical support or medical validation questions:
 - Documentation: https://docs.medtrain-ai.com
 - Community: https://discord.gg/medtrain-ai
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Princeton University HackPrinceton organizers
 - Medical advisory board
