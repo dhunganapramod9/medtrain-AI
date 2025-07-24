@@ -346,13 +346,6 @@ Unity Build Settings:
 - Scripting Backend: IL2CPP
 ```
 
-### APK Installation
-
-```bash
-adb install MedTrainAI.apk
-```
-
-
 
 ## Awards & Recognition
 
