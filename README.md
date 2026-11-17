@@ -343,6 +343,3 @@ Unity Build Settings:
 - Princeton University HackPrinceton organizers
 
 
----
-
-**Built with ❤️ for medical education and VR innovation**
